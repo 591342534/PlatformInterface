@@ -15,12 +15,12 @@ class PlatformUserFunctions;
 class PlatformPluginInterface
 {
 public:
-	virtual PlatformCoreFunctions& coreFunctions() = 0;
-	virtual PlatformFilesystemFunctions& filesystemFunctions() = 0;
-	virtual PlatformInputDeviceFunctions& inputDeviceFunctions() = 0;
-	virtual PlatformNetworkFunctions& networkFunctions() = 0;
-	virtual PlatformServiceFunctions& serviceFunctions() = 0;
-	virtual PlatformUserFunctions& userFunctions() = 0;
+    virtual PlatformCoreFunctions& coreFunctions() = 0;
+    virtual PlatformFilesystemFunctions& filesystemFunctions() = 0;
+    virtual PlatformInputDeviceFunctions& inputDeviceFunctions() = 0;
+    virtual PlatformNetworkFunctions& networkFunctions() = 0;
+    virtual PlatformServiceFunctions& serviceFunctions() = 0;
+    virtual PlatformUserFunctions& userFunctions() = 0;
 
 };
 
